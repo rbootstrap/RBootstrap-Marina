@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta content="" name="description">
+<meta content="" name="keywords">
+
+<title>Marina - Construction and Builder Bootstrap 5 Template</title>
+
+<!-- Favicons -->
+<link href="images/favicon/favicon.png" rel="icon">
+<link href="images/favicon/apple-touch-icon.png" rel="apple-touch-icon">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dosis:300,400" rel="stylesheet"> 
+
+<!--Asset Files-->
+<!-- Bootstrap core CSS -->
+<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/glightbox/css/glightbox.min.css" rel="stylesheet">
+<link href="assets/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+<!--FontAwesome-->
+<script src="https://kit.fontawesome.com/64b76f5cc4.js" crossorigin="anonymous"></script>
+
+<link href="css/style.css" rel="stylesheet">
+<link href="css/animations.css" rel="stylesheet">	
+	
+</head>
+<body>
+<!-- Preloader -->
+<div class="preloader" id="loader">
+	<div class="spinner"></div>
+</div>
+
+<!-- ===== Top Header ===== -->
+<div class="header-top topbar" id="topbar">
+	<div class="container d-flex justify-content-center justify-content-md-between">
+		<!--Top Left-->
+		<div class="top-left d-flex align-items-center">
+			<a href="mailto:contact@website.com"><i class="fa-solid fa-envelope"></i>&nbsp;contact@website.com</a>
+			<span class="ms-3"><i class="fa-solid fa-phone"></i>&nbsp;+1 9968 35477 33</span>
+		</div><!--.top-left-->
+		<!--Top Right-->
+		<div class="top-right social-links d-none d-md-flex align-items-center">
+			<a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+			<a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+			<a href="#" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+			<a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+		</div><!--.top-right-->
+	</div><!--.container-->
+</div><!--.header-top-->
+<!-- ===== Top Header Ends ===== -->
+
+<!-- ===== Navigation Menu Begins ===== -->   
+<nav class="navbar navbar-expand-lg navbar-light" id="mainMenu">
+	<div class="container">
+		<a class="navbar-brand" href="#"><img src="images/logo.jpg"></a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="main_nav">
+			<ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0 navbar-nav-scroll">
+				<li class="nav-item"><a class="nav-link formobile" href="index.html">Home</a></li>
+				<li class="nav-item"><a class="nav-link formobile" href="#our_services">Our Services</a></li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="ddservices" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+					<ul class="dropdown-menu fade-up first-level" aria-labelledby="ddservices">
+						<li><a class="dropdown-item formobile" href="inner-page.html">Inner Page</a></li>
+						<li><a class="dropdown-item formobile" href="#">Menu Item 2</a></li>
+						<li><a class="dropdown-item formobile" href="#">Menu Item 3</a></li>
+						<li><a class="dropdown-item" href="#">Menu Item 4 &raquo;</a>
+							<ul class="submenu submenu-right dropdown-menu">
+								<li><a class="dropdown-item formobile" href="#">Submenu Item 1</a></li>
+								<li><a class="dropdown-item formobile" href="#">Submenu Item 2</a></li>
+								<li><a class="dropdown-item formobile" href="#">Submenu Item 3</a></li>
+								<li><a class="dropdown-item formobile" href="#">Submenu Item 4</a></li>
+							</ul>
+						</li>
+						<li><a class="dropdown-item formobile" href="#">Menu Item 5</a></li>
+					</ul>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="ddblog" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+					<ul class="dropdown-menu fade-up first-level" aria-labelledby="ddblog">
+						<li><a class="dropdown-item formobile" href="blog.html">Blog Listing</a></li>
+						<li><a class="dropdown-item formobile" href="blog-description.html">Blog Description</a></li>
+					</ul>
+				</li>
+				<li class="nav-item"><a class="nav-link formobile" href="#portfolio">Projects</a></li>
+			</ul>
+			<a class="btn btn-default internal formobile" href="#contact_us" role="button">Get Started</a>
+		</div>
+	</div>
+</nav>
+<!--===== Navigation Menu Ends =====-->
+
+<!-- ===== MainCarousel ===== -->
+<div id="maincarousel">
+	<!-- 5.With indicators + Arrows + captions + Fade -->
+	<div id="slider" data-bs-interval="3000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+		<!-- Indicators/dots -->
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			<button type="button" data-bs-target="#slider" data-bs-slide-to="3" aria-label="Slide 4"></button>
+		</div>
+		<!-- The slideshow/carousel -->
+		<div class="carousel-inner">
+			<div class="carousel-item active animate zoomIn" style="background-image: url(images/slider/image1.jpg);">
+				<div class="carousel-container">
+					<div class="carousel-data">
+						<h2 class="animate fadeInUp delay1">Our mission is to develop the <span class="grey">strongest buildings.</span></h2>
+						<p class="lead animate fadeInUp delay1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporin cididulabore et dolore.</p>
+						<a href="#contact_us" class="btn btn-primary internal formobile animate fadeInUp delay1">Get In Touch</a>
+					</div><!--carousel-data-->
+				</div><!--carousel-container-->
+			</div><!--carousel-item-->
+
+			<div class="carousel-item animate zoomIn" style="background-image: url(images/slider/image2.jpg);">
+				<div class="carousel-container">
+					<div class="carousel-data">
+						<h2 class="animate fadeInUp delay1">Worldwide leader of <span class="grey">construction industry.</span></h2>
+						<p class="lead animate fadeInUp delay1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporin cididulabore et dolore.</p>
+						<a href="#contact_us"  class="btn btn-primary internal formobile animate fadeInUp delay1">Get In Touch</a>
+					</div><!--carousel-data-->
+				</div><!--carousel-container-->
+			</div><!--carousel-item-->
+
+			<div class="carousel-item animate zoomIn" style="background-image: url(images/slider/image3.jpg);">
+				<div class="carousel-container">
+					<div class="carousel-data">
+						<h2 class="animate fadeInUp delay1">Best construction company <span class="grey">since 1985.</span></h2>
+						<p class="lead animate fadeInUp delay1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporin cididulabore et dolore.</p>
+						<a href="#contact_us"  class="btn btn-primary internal formobile animate fadeInUp delay1">Get In Touch</a>
+					</div><!--carousel-data-->
+				</div><!--carousel-container-->
+			</div><!--carousel-item-->
+
+			<div class="carousel-item animate zoomIn" style="background-image: url(images/slider/image4.jpg);">
+				<div class="carousel-container">
+					<div class="carousel-data">
+						<h2 class="animate fadeInUp delay1">Best construction company <span class="grey">since 1985.</span></h2>
+						<p class="lead animate fadeInUp delay1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporin cididulabore et dolore.</p>
+						<a href="#contact_us"  class="btn btn-primary internal formobile animate fadeInUp delay1">Get In Touch</a>
+					</div><!--carousel-data-->
+				</div><!--carousel-container-->
+			</div><!--carousel-item-->	
+
+		</div><!--carousel-inner-->
+
+    <!--Arrows-->
+		<a class="carousel-control-prev" href="#slider" role="button" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon fa-solid fa-angle-left" aria-hidden="true"></span>
+		</a>
+
+		<a class="carousel-control-next" href="#slider" role="button" data-bs-slide="next">
+			<span class="carousel-control-next-icon fa-solid fa-angle-right" aria-hidden="true"></span>
+		</a>
+	</div>
+</div>
+<!-- ===== MainCarousel ===== -->
+
+<!-- ===== Company Boxes ===== -->
+<div class="company_boxes">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4 box">
+				<i class="fa fa-users"></i>
+				<h4>Quality Work.</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus perspiciatis asperiores labore esse.</p>
+			</div>
+			<div class="col-md-4 box theme_color">
+				<i class="fa-solid fa-sheet-plastic"></i>
+				<h4>Expert Engineers.</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus perspiciatis asperiores labore esse.</p>
+			</div>
+			<div class="col-md-4 box">
+				<i class="fa-solid fa-person-digging"></i>
+				<h4>Trusted Workers.</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus perspiciatis asperiores labore esse.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- ===== Company Boxes ===== -->
+
+<!-- ===== Our Services ===== -->
+<section id="our_services">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="text-center mb-5">
+					<h1 class="section-title-center reveal" data-reveal="fadeInUp">Our <span>Services</span></h1>
+				</div>
+			</div><!--/.col-md-12-->
+		</div><!--/.row-->
+
+		<div class="row reveal" data-reveal="fadeInUp">
+			<div class="col-md-6 col-lg-4">
+					<div class="our_services_box mb-4">
+							<div class="our_services_icon text-center">
+								<i class="fa-solid fa-helmet-safety icon-bg icon-line"></i>
+							</div><!--/.our_services_icon-->  
+							<div class="our_services_text">
+								<h4>Architecture</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+							</div><!--/.our_services_text-->  
+					</div><!--/.our_services_box-->
+			</div><!--/.col-md-6-->
+			<div class="col-md-6 col-lg-4">
+					<div class="our_services_box mb-4">
+							<div class="our_services_icon text-center">
+								<i class="fa-solid fa-person-digging icon-bg icon-line"></i>
+							</div><!--/.our_services_icon-->  
+							<div class="our_services_text">
+								<h4>Renovation</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+							</div><!--/.our_services_text-->  
+					</div><!--/.our_services_box-->
+			</div><!--/.col-md-6-->
+			<div class="col-md-6 col-lg-4">
+					<div class="our_services_box mb-4">
+							<div class="our_services_icon text-center">
+								<i class="fa-solid fa-truck-pickup icon-bg icon-line"></i>
+							</div><!--/.our_services_icon-->  
+							<div class="our_services_text">
+								<h4>Maintenence</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+							</div><!--/.our_services_text-->  
+					</div><!--/.our_services_box-->                
+			</div><!--/.col-md-6-->
+			<div class="col-md-6 col-lg-4">
+					<div class="our_services_box mb-4">
+							<div class="our_services_icon text-center">
+								<i class="fa-solid fa-compass-drafting icon-bg icon-line"></i>
+							</div><!--/.our_services_icon-->  
+							<div class="our_services_text">
+								<h4>Isolation</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+							</div><!--/.our_services_text-->  
+					</div><!--/.our_services_box-->
+			</div><!--/.col-md-6-->
+			<div class="col-md-6 col-lg-4">
+					<div class="our_services_box mb-4">
+							<div class="our_services_icon text-center">
+								<i class="fa-solid fa-toolbox icon-bg icon-line"></i>
+							</div><!--/.our_services_icon-->  
+							<div class="our_services_text">
+								<h4>Roof Repair</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							</div><!--/.our_services_text-->  
+					</div><!--/.our_services_box-->
+			</div><!--/.col-md-6-->
+			<div class="col-md-6 col-lg-4">
+				<div class="our_services_box mb-4">
+					<div class="our_services_icon text-center">
+						<i class="fa-solid fa-trowel-bricks icon-bg icon-line"></i>
+					</div><!--/.our_services_icon-->  
+					<div class="our_services_text">
+						<h4>Painting and Roofing</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div><!--/.our_services_text-->  
+				</div><!--/.our_services_box-->                
+			</div><!--/.col-md-6-->
+		</div><!--/.row-->
+	</div><!--/.container-->
+</section>
+<!-- ===== Our Services ===== -->
+
+<!-- ===== Call To Action ===== -->
+<section id="call_to_action">
+	<div class="container"><!--/.container-->
+		<div class="row call_to_action d-flex justify-content-center">
+			<div class="col-md-6 text-light reveal" data-reveal="fadeInUp">
+				<div class="row">
+					<div class="col-md-12 text-md-start text-center">
+						<h2 class="text-uppercase">Let us build a better tomorrow</h2>
+					</div>
+				</div><!--row-->
+				
+				<div class="row">
+					<div class="col-md-12 text-md-start text-center">
+						<p>Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+					</div>
+				</div><!--row-->
+
+				<div class="col-md-6 reveal" data-reveal="fadeInUp">
+					<div class="row mt-5 text-md-start text-center">
+						<div class="col-md-6 icon">
+							<i class="fa fa-building" aria-hidden="true"></i>
+							<div class="icon-content"><h3 data-purecounter-start="0" data-purecounter-end="930044" data-purecounter-duration="1" class="purecounter stats-no"></h3>SQUARE METERS BUILT</div>
+						</div>
+						<div class="col-md-6 icon">
+							<i class="fa-solid fa-house"></i>
+							<div class="icon-content"><h3 data-purecounter-start="0" data-purecounter-end="284" data-purecounter-duration="1" class="purecounter stats-no"></h3>PROJECTS COMPLETED</div>
+						</div>
+					</div>
+				</div><!--/. col-md-6-->
+			</div><!--/. col-md-6-->
+
+			<div class="col-md-6 reveal" data-reveal="fadeInUp">
+				<a class="btn btn-custom btn-lg mt-sm-5" href="#contact_us"><span><i class="fas fa-comment button-fa" aria-hidden="true"></i> Get a Quote</span></a>
+			</div><!--/. col-md-6-->
+
+		</div><!--/.row-->
+	</div><!--/.container-->
+</section>
+<!-- ===== Call To Action ===== -->
+
+<!-- ======= Our Portfolio/Projects Section ======= -->
+<section id="portfolio" class="portfolio">
+	<div class="container">
+
+		<div class="mb-4 reveal" data-reveal="fadeInUp">
+			<h1 class="section-title-left">Our <span>Projects</span></h1>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-12">
+				<ul id="portfolio-filters" class="reveal" data-reveal="fadeInUp">
+					<li data-filter="*" class="filter-active">All</li>
+					<li data-filter=".filter-infra">Infrastructure</li>
+					<li data-filter=".filter-ind">Industrial</li>
+					<li data-filter=".filter-resi">Residential</li>
+					<li data-filter=".filter-off">Office Spaces</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="row portfolio-container">
+
+			<div class="col-lg-4 col-md-6 portfolio-item filter-infra">
+				<div class="portfolio-wrap">
+					<img src="images/projects/thumbnails/img1.jpg" class="img-fluid" alt="">
+					<div class="portfolio-info">
+						<div>
+							<a href="images/projects/img1.jpg" data-gallery="portfolioGallery2" class="portfolio-lightbox" title="Website 1"><i class="fa fa-plus" aria-hidden="true"></i></a>
+							<a href="project-details.html" class="details-link" title="More Details"><i class="fa fa-link" aria-hidden="true"></i></a>
+						</div>
+						<h5>MANUFACTURING PLANT</h5>
+						<span>Krea Industrial Estate, UK</span>
+					</div>
+				</div>
+			</div><!--col-lg-4-->
+
+			<div class="col-lg-4 col-md-6 portfolio-item filter-ind">
+				<div class="portfolio-wrap">
+					<img src="images/projects/thumbnails/img2.jpg" class="img-fluid" alt="">
+					<div class="portfolio-info">
+						<div>
+							<a href="images/projects/img2.jpg" data-gallery="portfolioGallery2" class="portfolio-lightbox" title="Website 2"><i class="fa fa-plus" aria-hidden="true"></i></a>
+							<a href="project-details.html" class="details-link" title="More Details"><i class="fa fa-link" aria-hidden="true"></i></a>
+						</div>
+						<h5>CANADIAN NATIONAL RAILWAY</h5>
+						<span>British Columbia to Nova Scotia</span>
+					</div>
+				</div>
+			</div><!--col-lg-4-->
+
+			<div class="col-lg-4 col-md-6 portfolio-item filter-resi">
+				<div class="portfolio-wrap">
+					<img src="images/projects/thumbnails/img3.jpg" class="img-fluid" alt="">
+					<div class="portfolio-info">
+						<div>
+							<a href="images/projects/img3.jpg" data-gallery="portfolioGallery2" class="portfolio-lightbox" title="Data Analysis 1"><i class="fa fa-plus" aria-hidden="true"></i></a>
+							<a href="project-details.html" class="details-link" title="More Details"><i class="fa fa-link" aria-hidden="true"></i></a>
+						</div>
+						<h5>GIBA APARTMENTS</h5>
+						<span>Upper City, New York</span>
+					</div>
+				</div>
+			</div><!--col-lg-4-->
+
+			<div class="col-lg-4 col-md-6 portfolio-item filter-infra">
+				<div class="portfolio-wrap">
+					<img src="images/projects/thumbnails/img4.jpg" class="img-fluid" alt="">
+					<div class="portfolio-info">
+						<div>
+							<a href="images/projects/img4.jpg" data-gallery="portfolioGallery2" class="portfolio-lightbox" title="SEO Optimisation 1"><i class="fa fa-plus" aria-hidden="true"></i></a>
+							<a href="project-details.html" class="details-link" title="More Details"><i class="fa fa-link" aria-hidden="true"></i></a>
+						</div>
+						<h5>SILA DAM</h5>
+						<span>Jaipur, India</span>
+					</div>
+				</div>
+			</div><!--col-lg-4-->
+
+			<div class="col-lg-4 col-md-6 portfolio-item filter-off">
+				<div class="portfolio-wrap">
+					<img src="images/projects/thumbnails/img5.jpg" class="img-fluid" alt="">
+					<div class="portfolio-info">
+						<div>
+							<a href="images/projects/img5.jpg" data-gallery="portfolioGallery2" class="portfolio-lightbox" title="Data Mining 1"><i class="fa fa-plus" aria-hidden="true"></i></a>
+							<a href="project-details.html" class="details-link" title="More Details"><i class="fa fa-link" aria-hidden="true"></i></a>
+						</div>
+						<h5>POWER PLANT</h5>
+						<span>Cinema Factories, Canada</span>
+					</div>
+				</div>
+			</div><!--col-lg-4-->
+
+			<div class="col-lg-4 col-md-6 portfolio-item filter-ind">
+				<div class="portfolio-wrap">
+					<img src="images/projects/thumbnails/img6.jpg" class="img-fluid" alt="">
+					<div class="portfolio-info">
+						<div>
+							<a href="images/projects/img6.jpg" data-gallery="portfolioGallery2" class="portfolio-lightbox" title="Data Mining 2"><i class="fa fa-plus" aria-hidden="true"></i></a>
+							<a href="project-details.html" class="details-link" title="More Details"><i class="fa fa-link" aria-hidden="true"></i></a>
+						</div>
+						<h5>GIBA APARTMENTS</h5>
+						<span>Upper City, New York</span>
+					</div>
+				</div>
+			</div><!--col-lg-4-->
+
+			<div class="col-lg-4 col-md-6 portfolio-item filter-resi">
+				<div class="portfolio-wrap">
+					<img src="images/projects/thumbnails/img7.jpg" class="img-fluid" alt="">
+					<div class="portfolio-info">
+						<div>
+							<a href="images/projects/img7.jpg" data-gallery="portfolioGallery2" class="portfolio-lightbox" title="Data Analysis 2"><i class="fa fa-plus" aria-hidden="true"></i></a>
+							<a href="project-details.html" class="details-link" title="More Details"><i class="fa fa-link" aria-hidden="true"></i></a>
+						</div>
+						<h5>NATIONAL HIGHWAY 17</h5>	
+						<span>Running From Island City to Carrien</span>
+					</div>
+				</div>
+			</div><!--col-lg-4-->
+
+			<div class="col-lg-4 col-md-6 portfolio-item filter-off">
+				<div class="portfolio-wrap">
+					<img src="images/projects/thumbnails/img8.jpg" class="img-fluid" alt="">
+					<div class="portfolio-info">
+						<div>
+							<a href="images/projects/img8.jpg" data-gallery="portfolioGallery2" class="portfolio-lightbox" title="Bootstrap 5"><i class="fa fa-plus" aria-hidden="true"></i></a>
+							<a href="project-details.html" class="details-link" title="More Details"><i class="fa fa-link" aria-hidden="true"></i></a>
+						</div>
+						<h5>MASON VILLA</h5>
+						<span>Hillcity, Texas, US</span>
+					</div>
+				</div>
+			</div><!--col-lg-4-->
+
+			<div class="col-lg-4 col-md-6 portfolio-item filter-ind">
+				<div class="portfolio-wrap">
+					<img src="images/projects/thumbnails/img9.jpg" class="img-fluid" alt="">
+					<div class="portfolio-info">
+						<div>
+							<a href="images/projects/img9.jpg" data-gallery="portfolioGallery2" class="portfolio-lightbox" title="Responsive Websites"><i class="fa fa-plus" aria-hidden="true"></i></a>
+							<a href="project-details.html" class="details-link" title="More Details"><i class="fa fa-link" aria-hidden="true"></i></a>
+						</div>
+						<h5>HANGING BRIDGE</h5>
+						<span>Westward, London</span>
+					</div>
+				</div>
+			</div><!--col-lg-4-->
+
+			<div class="col-lg-4 col-md-6 portfolio-item filter-resi">
+				<div class="portfolio-wrap">
+					<img src="images/projects/thumbnails/img10.jpg" class="img-fluid" alt="">
+					<div class="portfolio-info">
+						<div>
+							<a href="images/projects/img10.jpg" data-gallery="portfolioGallery2" class="portfolio-lightbox" title="Responsive Websites"><i class="fa fa-plus" aria-hidden="true"></i></a>
+							<a href="project-details.html" class="details-link" title="More Details"><i class="fa fa-link" aria-hidden="true"></i></a>
+						</div>
+						<h5>OFFICE SPACES</h5>
+						<span>Borris Center, Norway</span>
+					</div>
+				</div>
+			</div><!--col-lg-4-->
+
+		</div><!--portfolio container-->
+	</div><!--container-->
+</section><!-- End Our Portfolio/Projects Section -->
+
+<!-- Our Experts /Team -->
+<section id="our_experts" class="bgwhite">
+	<div class="container"><!--/.container-->
+		<div class="row">
+			<div class="col-md-12">
+				<div class="text-center mb-5">
+					<h1 class="section-title-center reveal" data-reveal="fadeInUp">Our <span>Team</span></h1>
+				</div>
+			</div><!--/.col-md-12-->
+		</div><!--/.row-->
+
+		<div class="our_experts_block swiper text-center reveal" data-reveal="fadeInUp">
+			<div class="swiper-wrapper">
+
+				<div class="expert-member sweepright swiper-slide">
+					<div class="inner-box">
+						<figure class="image-box"><img class="img-responsive" src="images/team/team1.jpg" alt=""></figure>
+						<div class="overlay-bg"></div>
+						<div class="overlay-content">
+							<div class="icon-box">
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+									<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+								</ul>
+							</div>
+							<div class="content-box mt-3">
+								<h4>Mary Dorris</h4>
+								<p>Quality Manager</p>
+							</div>
+						</div><!--./overlay-content-->
+					</div><!--./inner-box-->
+				</div><!--./expert-member-->
+							
+				<div class="expert-member sweepright swiper-slide">
+					<div class="inner-box">
+						<figure class="image-box"><img class="img-responsive" src="images/team/team2.jpg" alt=""></figure>
+						<div class="overlay-bg"></div>
+						<div class="overlay-content">
+							<div class="icon-box">
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+									<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+								</ul>
+							</div>
+							<div class="content-box mt-3">
+								<h4>Karla Simpson</h4>
+								<p>Architect</p>
+							</div>
+						</div><!--./overlay-content-->
+					</div><!--./inner-box-->
+				</div><!--./expert-member-->
+				
+				<div class="expert-member sweepright swiper-slide">
+					<div class="inner-box">
+						<figure class="image-box"><img class="img-responsive" src="images/team/team3.jpg" alt=""></figure>
+						<div class="overlay-bg"></div>
+						<div class="overlay-content">
+							<div class="icon-box">
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+									<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+								</ul>
+							</div>
+							<div class="content-box mt-3">
+								<h4>Aida Roberts</h4>
+								<p>Site Engineer</p>
+							</div>
+						</div><!--./overlay-content-->
+					</div><!--./inner-box-->
+				</div><!--./expert-member-->
+				
+				<div class="expert-member sweepright swiper-slide">
+					<div class="inner-box">
+						<figure class="image-box"><img class="img-responsive" src="images/team/team4.jpg" alt=""></figure>
+						<div class="overlay-bg"></div>
+						<div class="overlay-content">
+							<div class="icon-box">
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+									<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+								</ul>
+							</div>
+							<div class="content-box mt-3">
+								<h4>Joshua Menes</h4>
+								<p>Quality Manager</p>
+							</div>
+						</div><!--./overlay-content-->
+					</div><!--./inner-box-->
+				</div><!--./expert-member-->
+				
+				<div class="expert-member sweepright swiper-slide">
+					<div class="inner-box">
+						<figure class="image-box"><img class="img-responsive" src="images/team/team2.jpg" alt=""></figure>
+						<div class="overlay-bg"></div>
+						<div class="overlay-content">
+							<div class="icon-box">
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+									<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+								</ul>
+							</div>
+							<div class="content-box mt-3">
+								<h4>Aida Remedes</h4>
+								<p>Architect</p>
+							</div>
+						</div><!--./overlay-content-->
+					</div><!--./inner-box-->
+				</div><!--./expert-member-->
+
+			</div><!--swiper wrapper-->
+      <div class="swiper-pagination"></div>
+		</div><!--./experts_block-->
+	</div><!--container-->
+</section>
+<!--====== Our Experts ======-->
+
+<!-- ===== Blog ===== -->
+<section id="blog">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="text-center mb-4 reveal" data-reveal="fadeInUp">
+					<h1 class="section-title-center">From <span>the blog</span></h1>
+				</div>
+			</div><!--/.col-md-12-->
+			<div class="text-center mb-2 reveal" data-reveal="fadeInUp">
+				<p class="lead">Lorem ipsum dolor sit amet, consectetured adipiscing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer citation ullamco laboris.</p>
+			</div>
+		</div><!--/.row-->
+
+		<div class="row">
+
+			<div class="col-lg-6">
+				<div class="blog-item reveal" data-reveal="fadeInLeft">
+					<div class="item">
+						<div class="item-image effect-zoom">
+							<img class="img-fluid" src="images/blog/blog1.jpg" alt="">
+						</div><!--/.item-image-->
+						<div class="item-content text-center">	
+							<h3>The Process We Follow to give our clients the best.</h3>
+							<!-- Text -->
+							<p>Lorem ipsum dolor sit amet, consectetured adipiscing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer citation ullamco laboris.</p>
+							<a class="btn btn-info" href="blog-description.html">Read More</a>
+						</div><!--/.item-content-->
+					</div><!--/.item-->
+				</div><!--/.blog-item-->
+			</div><!--/.col-lg-6-->
+			
+			<div class="col-lg-6">
+				<div class="blog-item reveal" data-reveal="fadeInRight">
+					<div class="item">
+						<div class="item-image effect-zoom">
+							<img class="img-fluid" src="images/blog/blog2.jpg" alt="">
+						</div><!--/.item-image-->
+						<div class="item-content text-center">	
+							<h3>How We Managed to Complete Some of Our Best Projects.</h3>
+							<!-- Text -->
+							<p>Lorem ipsum dolor sit amet, consectetured adipiscing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer citation ullamco laboris.</p>
+							<a class="btn btn-info" href="blog-description.html">Read More</a>
+						</div><!--/.item-content-->
+					</div><!--/.item-->
+				</div><!--/.blog-item-->
+			</div><!--/.col-lg-6-->
+
+			<div class="col-lg-6">
+				<div class="blog-item reveal" data-reveal="fadeInLeft">
+					<div class="item">
+						<div class="item-image effect-zoom">
+							<img class="img-fluid" src="images/blog/blog3.jpg" alt="">
+						</div><!--/.item-image-->
+						<div class="item-content text-center">	
+							<h3>How We Managed to Complete Some of Our Best Projects.</h3>
+							<!-- Text -->
+							<p>Lorem ipsum dolor sit amet, consectetured adipiscing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer citation ullamco laboris.</p>
+							<a class="btn btn-info" href="blog-description.html">Read More</a>
+						</div><!--/.item-content-->
+					</div><!--/.item-->
+				</div><!--/.blog-item-->
+			</div><!--/.col-lg-6-->
+
+			<div class="col-lg-6">
+				<div class="blog-item reveal" data-reveal="fadeInRight">
+					<div class="item">
+						<div class="item-image effect-zoom">
+							<img class="img-fluid" src="images/blog/blog4.jpg" alt="">
+						</div><!--/.item-image-->
+						<div class="item-content text-center">	
+							<h3>The Process We Follow to give our clients the best.</h3>
+							<!-- Text -->
+							<p>Lorem ipsum dolor sit amet, consectetured adipiscing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer citation ullamco laboris.</p>
+							<a class="btn btn-info" href="blog-description.html">Read More</a>
+						</div><!--/.item-content-->
+					</div><!--/.item-->
+				</div><!--/.blog-item-->
+			</div><!--/.col-lg-6-->
+
+		</div><!--/.row-->
+	</div><!--/.container-->
+</section>
+
+<!-- ===== Contact Us ===== -->
+<section id="contact_us">
+	<div class="container contact_us">
+		<div class="text-center mb-4 reveal" data-reveal="fadeInUp">
+			<h1 class="section-title-center text-white">Contact <span>Us</span></h1>
+		</div>
+
+		<div class="row mt-1 d-flex justify-content-end">
+			<div class="col-lg-5 reveal" data-reveal="fadeInLeft">
+				<div class="info">
+					<div class="address">
+						<i class="fa fa-map-marker"></i>
+						<h4>Location:</h4>
+						<p>A108 Adam Street, New York, NY 535022</p>
+					</div>
+
+					<div class="email">
+						<i class="fa-solid fa-envelope"></i>
+						<h4>Email:</h4>
+						<p>info@website.com</p>
+					</div>
+
+					<div class="phone">
+						<i class="fa-solid fa-phone"></i>
+						<h4>Call:</h4>
+						<p>+1 5589 55488 55s</p>
+					</div>
+				</div><!--info-->
+			</div><!--col-lg-5-->
+			<div class="col-lg-6 reveal" data-reveal="fadeInRight">
+				<form class="requires-validation" novalidate id="ajaxform" action='#' method='post' name="myForm">
+					<div class="row">
+						<div class="col-md-6 mb-3">
+							<input class="form-control" id='full_name1' type="text" name='full_name' placeholder="Full Name" required>
+							<div class="invalid-feedback">Please enter your Full Name!</div>
+						</div>
+						<div class="col-md-6 mb-3">
+							<input class="form-control" id='email1' type="email" name='email' placeholder="E-mail Address" required>
+							<div class="invalid-feedback">Enter a valid Email ID!</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-6 mb-3">
+							<input class="form-control" id="phone1" type="text" name="phone" placeholder="Phone"  required>
+							<div class="invalid-feedback">Please enter your Phone Number!</div>
+						</div>
+
+						<div class="col-md-6 mb-3">
+							<input class="form-control" id="subject1" type="text" name="subject" placeholder="Subject" required>
+							<div class="invalid-feedback">Please enter the Subject!</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-12 mb-3">
+							<textarea class="form-control" id="message1" name="message" placeholder="Enter Your Message" required rows="5"></textarea>
+							<div class="invalid-feedback">Please enter a message!</div>
+						</div>
+					</div>
+
+					<div id='formoutput'></div>
+					<!--<input onclick="validate()" type='button' value='Submit'>-->
+					<button class="btn btn-info" id="submit" onclick="validate()" type="submit">Submit</button>
+				</form>
+			</div>
+		</div><!--row-->
+	</div><!--container-->
+</section>
+
+<!-- ===== Footer ===== -->
+<footer id="footer" class="text-white">
+	<!-- Footer Section Top -->
+	<div id="footer_top" class="">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 footer-block mb-sm-4 mb-md-0 reveal" data-reveal="fadeInUp">
+					<h5 class="footer-title">About Us</h5>
+					<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta.</p>
+					<ul class="list-group list-group-horizontal social-icons">
+						<li class="list-group-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li class="list-group-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-group-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+						<li class="list-group-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+						<li class="list-group-item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+					</ul><!--/.social-icons-->
+				</div><!--/.footer-block-->
+
+				<div class="col-lg-3 col-md-6 footer-block mb-sm-4 mb-md-0 reveal" data-reveal="fadeInUp">
+					<h5 class="footer-title">Client Information</h5>
+					<ul class="listing">
+						<li><a href="#">Our Clients</a></li>
+						<li><a href="#">Our Services</a></li>
+						<li><a href="#">Latest News</a></li>
+						<li><a href="#">Our Blog</a></li>
+						<li><a href="#">Contact Information</a></li>
+					</ul><!--/.listing-->
+				</div><!--/.footer-block-->
+
+				<div class="col-lg-3 col-md-6 footer-block mb-sm-4 mb-md-0 reveal" data-reveal="fadeInUp">
+					<h5 class="footer-title">On Instagram</h5>
+					<div class="footer_images clearfix">
+						<div class="footer_img"><a href="#"><img src="images/footer/instagram1.jpg" alt="Insta 1"></a></div>
+						<div class="footer_img"><a href="#"><img src="images/footer/instagram2.jpg" alt="Insta 2"></a></div>
+						<div class="footer_img"><a href="#"><img src="images/footer/instagram3.jpg" alt="Insta 3"></a></div>
+						<div class="footer_img"><a href="#"><img src="images/footer/instagram4.jpg" alt="Insta 4"></a></div>
+						<div class="footer_img"><a href="#"><img src="images/footer/instagram5.jpg" alt="Insta 5"></a></div>
+						<div class="footer_img"><a href="#"><img src="images/footer/instagram1.jpg" alt="Insta 6"></a></div>
+					</div>
+				</div><!--/.footer-block-->
+
+				<div class="col-lg-3 col-md-6 footer-block mb-sm-4 mb-md-0 reveal" data-reveal="fadeInUp">
+					<h5 class="footer-title">Contact Info</h5>
+					<div class="contact-block mb-4">
+						<div class="item p-1"><i class="fa fa-map-marker"></i></div>
+						<div class="item px-1">14 Tobblewehem Road, New South Wales, Australia</div>
+					</div><!--/.contact-block-->
+					<div class="contact-block">
+						<div class="item p-1"><i class="fa-solid fa-phone"></i></div>
+						<div class="item px-1">+1800-222-3333</div>
+					</div><!--/.contact-block-->
+					<div class="contact-block mb-4">
+						<div class="item p-1"><i class="fa-solid fa-envelope"></i></div>
+						<div class="item px-1">support@website.com</div>
+					</div><!--/.contact-block-->
+				</div><!--/.footer-block-->
+
+			</div><!--/.row-->
+		</div><!--/.container-->
+	</div><!--/.footer_top-->
+
+	<!-- Footer Section Bottom -->
+	<div id="footer_bottom" class="py-4">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-md-6 text-md-start text-white">
+					&copy; Copyright <strong><span>Marina</span></strong>. All Rights Reserved.
+				</div><!--/.col-md-6-->
+				<div class="col-md-6 text-md-end text-white">
+					Designed by <a target="_blank" href="https://rbootstrap.com/">RBootstrap</a>
+				</div><!--/.col-md-6-->
+			</div><!--/.row-->
+		</div><!--/.container-->
+	</div><!--footer_bottom-->
+</footer>
+<!--Footer Section-->
+
+<!-- Back to top button -->
+<button type="button" class="btn btn-lg"  id="btn-back-to-top">
+	<i class="fa fa-angle-up"></i>
+</button>
+					
+<script src="assets/purecounter/purecounter.js"></script>
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/isotope/isotope.pkgd.min.js"></script>
+<script src="assets/glightbox/js/glightbox.min.js"></script>
+<script src="assets/swiper/swiper-bundle.min.js"></script>
+
+<script src="js/ajax.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/reveal.js"></script>  
+
+</body>
+</html>
