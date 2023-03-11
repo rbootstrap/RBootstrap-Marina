@@ -1,6 +1,7 @@
-/*
-* RBootStrap - Marina - Construction Template
-* Copyright 2022 RBootStrap
+		/*
+* RBootstrap - Marina (https://rbootstrap.com/marina-construction-and-builder-template/)
+* Copyright 2023 RBootstrap
+* Licensed under MIT (https://github.com/rbootstrap/RBootstrap-Marina/blob/main/LICENSE)
 */
 
 (function() {
