@@ -1,5 +1,9 @@
 # RBootstrap-Marina
 Construction Responsive Bootstrap Template
+Website: https://rbootstrap.com/marina-construction-and-builder-template/
+
+Demo Link: https://rbootstrap.com/marina-demo/
+
 # Features
 Marina is a modern One Page HTML 5 Bootstrap Construction and Builder Template.
 
@@ -35,9 +39,11 @@ Here are some of the key features:
 - Cross Browser compatible
 
 # FAQs
-f18b1d
-
-To get the AJAX/PHP contact form working:
-1) Open file "validation.php".
+How to change the color of the theme?
+- The color of the theme is "#f18b1d". Search for this color in css/style.css and Replace it with the color of your choice.
+ 
+How to make the contact form work?
+To get the PHP/AJAX contact form working:
+1) Open file "validation.php"
 2) Search for the comment "//Set the Recipient Email Address"
-3) Replace "contact@yourwebsite.com" with your Email Address.
+3) Replace "contact@yourwebsite.com" with your Email Address
