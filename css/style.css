@@ -1,7 +1,6 @@
-		/*
+/*
 * RBootstrap - Marina (https://rbootstrap.com/marina-construction-and-builder-template/)
 * Copyright 2023 RBootstrap
-* Licensed under MIT (https://github.com/rbootstrap/RBootstrap-Marina/blob/main/LICENSE)
 */
 
 /*===============================================================================*/
@@ -624,8 +623,8 @@ section.bgwhite {
 
 #maincarousel p {
   width: 80%;
-  -moz-animation: 0.4s;
-  -o-animation: 0.4s;
+  -moz-animation-delay: 0.4s;
+  -o-animation-delay: 0.4s;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;

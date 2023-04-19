@@ -3,7 +3,6 @@
 		/*
 * RBootstrap - Marina (https://rbootstrap.com/marina-construction-and-builder-template/)
 * Copyright 2023 RBootstrap
-* Licensed under MIT (https://github.com/rbootstrap/RBootstrap-Marina/blob/main/LICENSE)
 */
 
 $full_name = $_GET['full_name'];
