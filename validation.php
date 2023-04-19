@@ -1,5 +1,4 @@
 <?php
-
 		/*
 * RBootstrap - Marina (https://rbootstrap.com/marina-construction-and-builder-template/)
 * Copyright 2023 RBootstrap
@@ -29,7 +28,7 @@ else if($flag==0)
 {
 	$content = "From: $full_name \nEmail: $email \nPhone: $phone \nSubject: $subject \nMessage: $message";
 	//Set the Recipient Email Address
-	$recipient = "contact@yourwebsite.com";
+	$recipient = "michrods@gmail.com";
 	$mailheader = "From: $email \r\n";
 	mail($recipient, $subject, $content, $mailheader) or die("Error!");
 	

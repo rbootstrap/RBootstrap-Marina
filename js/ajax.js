@@ -1,10 +1,10 @@
+		
 		/*
 * RBootstrap - Marina (https://rbootstrap.com/marina-construction-and-builder-template/)
 * Copyright 2023 RBootstrap
 */
 
-
-// AJAX code to check input field values when onblur event triggerd.
+		// AJAX code to check input field values when onblur event triggerd.
 		function validate() {
 
 		var full_name = document.getElementById("full_name1").value;
