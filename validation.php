@@ -28,7 +28,7 @@ else if($flag==0)
 {
 	$content = "From: $full_name \nEmail: $email \nPhone: $phone \nSubject: $subject \nMessage: $message";
 	//Set the Recipient Email Address
-	$recipient = "michrods@gmail.com";
+	$recipient = "contact@yourwebsite.com";
 	$mailheader = "From: $email \r\n";
 	mail($recipient, $subject, $content, $mailheader) or die("Error!");
 	
